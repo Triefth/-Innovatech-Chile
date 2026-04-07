@@ -1,0 +1,9 @@
+#Ignorar archivos de estado de terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform/.lock.hcl
+
+#Ignorar posibles descargas pesadas o temporales
+*.iso
+*.img
